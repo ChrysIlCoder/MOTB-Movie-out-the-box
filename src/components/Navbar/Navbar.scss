@@ -1,0 +1,25 @@
+.navbar_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  padding: 1rem;
+  box-shadow: 0 3px 3px 0px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 3px 3px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 3px 3px 0px rgba(0, 0, 0, 0.15);
+  width: 100%;
+
+  &__left_header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    justify-self: flex-start;
+  }
+
+  &__center_header {
+    font-size: 0.75em;
+    text-align: center;
+    grid-column: span 2;
+    justify-self: flex-start;
+  }
+}

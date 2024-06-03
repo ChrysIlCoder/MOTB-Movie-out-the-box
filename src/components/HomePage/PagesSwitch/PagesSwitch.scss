@@ -1,0 +1,17 @@
+.pages_switch_container {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  align-items: center;
+
+  button {
+    border: solid 1px lightgray;
+    background: none;
+    padding: 10px;
+    cursor: pointer;
+
+    &:hover {
+      background: rgba($color: #000000, $alpha: 0.05);
+    }
+  }
+}
